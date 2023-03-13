@@ -1,3 +1,13 @@
 PROGRAM FoodOrder
 
-// todo: add your pseudocode for online food order
+READ adn WRITE "pilihan restoran"
+READ and WRITE "pilihan makanan"
+STORE "pilihan makanan" with "harga makanan"
+CALCULATE "harga makanan"
+IF "metode pembayaran" is equal to "cash"
+  print "makanan dikirim"
+else 
+  IF "saldo" more than or equal "harga makanan"
+    print "makanan dikirim"
+  else
+    print "saldo tidak cukup"
